@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heredity explorer</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>Heredity explorer</h1>
+  <label class="ctl">Family <select id="family"></select></label>
+  <label class="ctl">Mutation
+    <input type="range" id="mutation" min="0" max="0.2" step="0.005">
+    <span class="mono" id="mutationVal"></span></label>
+  <button class="plain" id="reset">Reset to file</button>
+  <span id="status"></span>
+</header>
+<div id="tree"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
