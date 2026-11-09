@@ -1,1 +1,0 @@
-Models created for the subject of AI in UALG
