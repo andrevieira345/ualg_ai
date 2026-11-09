@@ -1,0 +1,6 @@
+name,mother,father,trait
+Ana,,,1
+Luis,,,0
+Sofia,Ana,Luis,0
+Carla,,,0
+Miguel,Sofia,Carla,0
